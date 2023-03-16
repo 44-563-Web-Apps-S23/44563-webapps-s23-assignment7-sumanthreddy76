@@ -113,13 +113,13 @@
         }
     }
     function help(){
-        let mouseRow = Math.floor(mouseLocation/6)
+        let mouseRow = Math.floor(mouseLocation/4)
         let mouseColumn = mouseLocation%6
 
-        let catRow = Math.floor(catLocation/6)
+        let catRow = Math.floor(catLocation/4)
         let catColumn = catLocation%6
 
-        let lastRow = Math.floor(lastCheck/6)
+        let lastRow = Math.floor(lastCheck/4)
         let lastColumn = lastCheck%6
 
         let checkRow1 = mouseRow - lastRow
